@@ -48,9 +48,11 @@ public class FaceppActionActivity extends Activity implements OnClickListener {
 
     private boolean isStartRecorder, is3DPose, isDebug, isROIDetect, is106Points, isBackCamera, isFaceProperty,
             isOneFaceTrackig;
+    //九宫格没选中的图片
     private int[] imageItemImages_gray = {R.drawable.record_gray, R.drawable.three_d_gray, R.drawable.debug_gray,
             R.drawable.area_gray, R.drawable.point81, R.drawable.frontphone, R.drawable.faceproperty_gray, R.drawable
             .debug_gray};
+    //九宫格选中的图片
     private int[] imageItemImages_blue = {R.drawable.record_blue, R.drawable.three_d_blue, R.drawable.debug_blue,
             R.drawable.area_blue, R.drawable.point106, R.drawable.backphone, R.drawable.faceproperty_blue, R.drawable
             .debug_blue};
@@ -112,6 +114,8 @@ public class FaceppActionActivity extends Activity implements OnClickListener {
     }
 
     private void initData() {
+        //第一个循环,给九宫格加字和图片
+        //布局里是七个跟五个
         for (int i = 0; i < imageItem_Rels.length; i++) {
             imageItem_Rels[i].setOnClickListener(this);
             ImageView image = (ImageView) imageItem_Rels[i].findViewById(R.id.image_item_image);
@@ -129,6 +133,7 @@ public class FaceppActionActivity extends Activity implements OnClickListener {
         }
 
         editItemTexts = new TextView[5];
+        //后五个
         for (int i = 0; i < textItem_Rels.length; i++) {
             textItem_Rels[i].setOnClickListener(this);
             TextView text = (TextView) textItem_Rels[i].findViewById(R.id.edit_item_text);

@@ -6,6 +6,7 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
@@ -103,6 +104,7 @@ public class LoadingActivity extends Activity {
                     @Override
                     public void onFailed(int i, byte[] bytes) {
                         authState(false);
+                        Log.e("TEST","鉴权失败....."+new String(bytes));
                     }
                 });
     }

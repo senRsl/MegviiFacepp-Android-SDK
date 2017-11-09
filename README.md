@@ -1,37 +1,16 @@
-# MegviiFacepp-Android-SDK
-An android wrapper of MegviiFacepp SDK (the mobile SDK).
-
-## How to use
-1. Add the JitPack repository to your root build.gradle at the end of repositories:
-```
-allprojects {
-    repositories {
-        ...
-        maven { url 'https://jitpack.io' }
-    }
-}
-```
-2. Add the dependency
-
-```
-dependencies {
-        compile 'com.github.FacePlusPlus:MegviiFacepp-Android-SDK:0.4.7'
-}
-```
-
-3. Go to the [official website](https://www.faceplusplus.com.cn/) register an account
-4. Apply key and secret from [here](https://console.faceplusplus.com.cn/app/apikey/list), create a file named "key" in assets directory, paste key and secret in format like key;secret
-5. Bund your bundle id from [here](https://console.faceplusplus.com.cn/app/bundle/list)
-6. Download sdk from [here](https://console.faceplusplus.com.cn/service/face/intro), find the model 
-that named with megviifacepp_0_4_7_model and put it in raw directory
-7. Run demo or your app.
+        
+版本号： 0.4.7  
+  
+  
+首先,一定要使用Android Studio来编译项目,这会使你少掉许多头发,如果非要使用原生的Intellij,需要找到NDK Support Plugs 然后配置CMake,上面那俩我都没找到;  
+  
+其次,当你看到一份乱七八糟的代码时,一定要保持冷静,尤其是秋冬来临之际,天干物燥,小心上火;  
+  
+再次, 如果你没有给这个平台充钱的打算,一定要减少编译运行次数,因为,你编两次就超额了;  
+  
+  
+最后,我觉得IOS跟Android的Issue里说的很对,这是我见过最垃圾的一份demo了.  
 
 
-版本号： 0.4.7
-（此版本SDK适用于 Megvii-Facepp 0.4.7A）
-
-[学习如何使用 SDK](https://github.com/FacePlusPlus/MegviiFacepp-Android-SDK/wiki/)
-
-Version: 0.4.7 (This version is compatible to Megvii-Facepp 0.4.7A)
-
-[Learn how to use SDK](https://github.com/FacePlusPlus/MegviiFacepp-Android-SDK/wiki/)
+仅以为记  
+2017年11月09日17:13:39  

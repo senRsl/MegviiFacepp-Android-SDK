@@ -1,0 +1,15 @@
+Face++费用相关：https://www.faceplusplus.com.cn/pricing.html
+
+网络请求代码示例：https://console.faceplusplus.com.cn/documents/6329752
+
+Face++功能接入工具：https://console.faceplusplus.com.cn/documents/5673465
+
+Face++ API:https://console.faceplusplus.com.cn/documents/4888373
+
+发票相关：https://console.faceplusplus.com.cn/documents/5679257
+
+免费KEY和正式KEY的区别：https://www.faceplusplus.com.cn/free/index.html
+
+api_key创建：https://console.faceplusplus.com.cn/app/apikey/list
+
+为FaceToken设置User_ID：https://console.faceplusplus.com.cn/documents/4888387
